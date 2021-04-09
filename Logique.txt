@@ -1,0 +1,36 @@
+Liste fonctionnalité :
+
+- Bouton ajouter (id="task"): Ajouter la taches écrite dans l'input "Ajouter une tache" : 
+	Ajouter au LocalStorage les données rentrer avec les boutons "Ajouter"
+	Afficher les données mise dans le local storage dans le balise ul en créant des balise il html préfaite avec la tache dedans
+	Créer une fonction pour autot increment les valeur dans le LocalStorage avec comme nom "Task0" "Task1"
+	
+-Bouton suppr (id="clear"): Supprimer la données séléctionner :
+	Supprimer la données séléctionner Task dans le LocalStorage par rapport a son id
+	Supprimer aussi la données à l'affichage et rafraichi la page
+
+-Bouton "Tout supprimer" (id="clearAll"):
+	Supprimer tous les données Task du LocalStorage par rapport a son id 
+	Supprimer aussi toutes les données à l'affichage et rafraichi la page
+
+-Affichage "Vous avez "nmbTache" tache" : 
+	Reprendre la taille du nombre de key dans le LocalStorage pour l'afficher dans "nmbTache"
+
+
+Organisation LocalStorage:
+Compteur :
+key : task
+value : [Nombre de task entrer et sauvegarder dans le LocalStorage]
+
+Task :
+key : task0, task 1; task 2 etc
+value : Ce qui sera rentrer dans l'input par la personne
+
+
+
+//Aide sur la manipulation du DOM :
+En JavaScript vous pouvez supprimer un élément html grâce à getElementById et remove.
+En Javascript vous pouvez créer un nouvel élément html grâce à createElement. Pour insérer un élément html je vous invite à regarder les différentes fonctions append ou insert pour trouver la bonne. 
+ like 1
+
+	
