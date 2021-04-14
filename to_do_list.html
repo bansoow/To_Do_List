@@ -13,19 +13,13 @@
     <h1>To Do List</h1>
     <div class="inputField">
       <input id="add" type="text" placeholder="AJOUTER UNE TACHE">
-      <button id="addTask" onclick="addTask()" type="button" class="add">Ajouter</button>
+      <button onclick="addTask()" type="button" class="add">Ajouter</button>
     </div>
     <ul class="todolist">
-      <li><p id="task"></p><span><button onclick="clear" type="button" class="clear">Suppr</button></span></li>
-      <!--<li>Faire PortFolio<span><button onclick="clear" type="button" class="clear">Suppr</button></span></li>
-      <li>Faire PortFolio<span><button onclick="clear" type="button" class="clear">Suppr</button></span></li>
-      <li>Faire PortFolio<span><button onclick="clear" type="button" class="clear">Suppr</button></span></li>
-      <li>Faire PortFolio<span><button onclick="clear" type="button" class="clear">Suppr</button></span></li>-->
-
     </ul>
     <div class="footer">
       <span>Vous avez <span class="pendingnumb"></span> taches</span>
-      <button id="clearAll" >Tout supprimer</button>
+      <button onclick="supprAll()" >Tout supprimer</button>
     </div>
   </div>
   </body>
